@@ -1,0 +1,33 @@
+{
+  "cluster_name": "natwestdevce",
+  "cluster_domain": "appiancloud.com",
+  "locust_file": "locustfile.py",
+  "skip_machine_setup": false,
+  "client_record_mode_enabled": false,
+  "actor_config": {
+    "om_customer_viewer": {
+      "wait_from": 180,
+      "wait_to": 300,
+      "weight": 18
+    },
+    "om_reviewer": {
+      "wait_from": 60,
+      "wait_to": 120,
+      "weight": 2
+    }
+  },
+  "submitter": {
+    "auth_submitter": [
+      "yash.dwivedi",
+      "Password1234"
+    ],
+    "credentials_submitter": []
+  },
+  "reviewer": {
+    "auth_reviewer": [
+      "perf.test.hoa",
+      "Password1234"
+    ],
+    "credentials_reviewer": []
+  }
+}
