@@ -19,14 +19,14 @@
   "submitter": {
     "auth_submitter": [
       "yash.dwivedi",
-      "Password1234"
+      "XXXX"
     ],
     "credentials_submitter": []
   },
   "reviewer": {
     "auth_reviewer": [
       "perf.test.hoa",
-      "Password1234"
+      "XXXXX"
     ],
     "credentials_reviewer": []
   }
