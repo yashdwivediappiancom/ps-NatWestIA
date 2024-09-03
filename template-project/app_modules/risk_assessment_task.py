@@ -39,7 +39,7 @@ class RiskAssessmentTasks:
             raise Exception(f"Error viewing site {site_name} page {page_name}") from e
         
 
-    def select_random_AE(self, site_page: SailUiForm) -> SailUiForm:
+    def update_risk_assessment(self, site_page: SailUiForm) -> SailUiForm:
         
         AE_row_index = random.randint(1, 50)
         no_of_times_to_page = random.randint(0, 15) 

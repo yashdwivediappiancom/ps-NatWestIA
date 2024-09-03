@@ -5,29 +5,29 @@
   "skip_machine_setup": false,
   "client_record_mode_enabled": false,
   "actor_config": {
-    "om_customer_viewer": {
+    "auditor": {
       "wait_from": 180,
       "wait_to": 300,
       "weight": 18
     },
-    "om_reviewer": {
+    "head_audit": {
       "wait_from": 60,
       "wait_to": 120,
       "weight": 2
     }
   },
-  "submitter": {
-    "auth_submitter": [
+  "auditor": {
+    "auth_auditor": [
       "yash.dwivedi",
       "XXXXXX"
     ],
-    "credentials_submitter": []
+    "credentials_auditor": []
   },
-  "reviewer": {
-    "auth_reviewer": [
+  "head_audit": {
+    "auth_head_audit": [
       "perf.test.hoa",
       "XXXXXXX"
     ],
-    "credentials_reviewer": []
+    "credentials_head_audit": []
   }
 }
