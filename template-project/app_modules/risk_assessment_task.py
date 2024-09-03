@@ -183,7 +183,3 @@ class RiskAssessmentTasks:
 
             
             raise Exception("Error creating new case") from e
-
-
-    # def update_risk_assessment(self, site_page: SailUiForm) -> SailUiForm:
-

@@ -12,7 +12,7 @@ from appian_locust.utilities import loadDriverUtils
 
 from utilities import utils
 
-from app_modules.om_tasks import OMTasks
+from app_modules.engagement_tasks import EngagementTasks
 from app_modules.risk_assessment_task import RiskAssessmentTasks
 from app_modules.review_risk_assessment import ReviewTasks
 from app_modules.record_view_tasks import RecordView
